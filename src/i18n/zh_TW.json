@@ -1,0 +1,369 @@
+{
+  "common": {
+    "tips": {
+      "failed": "操作失敗",
+      "success": "操作成功",
+      "added_success": "添加成功",
+      "exit_success": "退出成功",
+      "submitted": "已提交",
+      "copyLinkTips": "複製成功",
+      "sms_sendsuccess": "短信已發送",
+      "mail_sendsuccess": "郵件已發送",
+      "phoneno_error": "手機號碼有誤",
+      "mail_error": "郵箱格式有誤",
+      "operateing": "操作中...",
+      "deleting": "刪除中...",
+      "saving": "保存中...",
+      "qrcode_generating": "二維碼生成中"
+    },
+    "operate": {
+      "close": "關閉",
+      "sure": "確認",
+      "cancel": "取消",
+      "get_captcha": "獲取驗證碼",
+      "captcha_countdown": "{second} 秒後重試",
+      "forget": "忘記密碼？",
+      "upload": "上傳",
+      "determine": "確定",
+      "copy": "複製"
+    },
+    "status": {
+      "under_review": "審核中",
+      "passed": "已通過",
+      "cancelled": "已取消"
+    },
+    "title": {
+      "prompt": "提示",
+      "status": "狀態",
+      "name": "姓名",
+      "idcrad": "身份證",
+      "wechat": "微信",
+      "alipay": "支付寶",
+      "bank_card": "銀行卡",
+      "bankAccount": "收款賬戶",
+      "otc": "OTC交易",
+      "announcement": "公告",
+      "detailed": "詳細",
+      "add_photo": "添加照片"
+    },
+    "ask": {
+      "confirmExit": "確定需要退出嗎?"
+    },
+    "update": {
+      "isLatestVersion": "當前已經是最新版本",
+      "version": "發現新的版本！",
+      "downloadTips": "下載失敗.請檢查網絡或稍後再試",
+      "downloadSuccess": "安裝新版本",
+      "updateTips": "立即升級",
+      "downloadIn": "下載中...",
+      "success": "新版本下載成功，開始安裝"
+    }
+  },
+  "navs": {
+    "my": "我的",
+    "assets": "資產",
+    "home": "首頁"
+  },
+  "wallet": {
+    "totalAssetsConverted": "總資產折合",
+    "withdraw": "提幣",
+    "recharge": "充幣",
+    "internalTransfer": "內部轉賬",
+    "invitationAward": "邀請推廣",
+    "hiddenAssets": "隱藏為0的資產",
+    "add": "添加",
+    "presentPrice": "現價",
+    "withdrawPage": {
+      "selectCoin": "選擇幣種",
+      "usable": "可用 {balance}{symbol}",
+      "withdrawAddress": "提幣地址",
+      "withdrawNum": "提幣數量",
+      "placeholderAddress": "輸入或掃碼錄入",
+      "placeholderNum": "最小提幣數量{withdraw_min}",
+      "serviceCost": "手續費：{cost}{symbol}",
+      "all": "全部",
+      "submit": "確認提現",
+      "propose": "提出：",
+      "intoAddress": "轉入地址：",
+      "tipsNumNull": "提幣數量不能為空",
+      "tipsNumMin": "提幣數量不能小於最小限制",
+      "tipsAddressNull": "提幣地址不能為空",
+      "explain": "提幣說明",
+      "paused": "已暫停"
+    },
+    "transferPage": {
+      "outSymbol": "轉出幣種",
+      "outNum": "轉出數量",
+      "outDate": "轉出時間",
+      "withdrawSuccess": "提幣成功"
+    },
+    "rechargePage": {
+      "copy": "複製地址",
+      "rechargeQrCode": "充幣二維碼",
+      "notRecharge": "暫停充幣",
+      "rechargeExplain": "充值說明"
+    },
+    "logPage": {
+      "log": "財務記錄",
+      "no": "業務編號",
+      "action": "業務類型",
+      "explain": "業務說明"
+    }
+  },
+  "my": {
+    "verified": "實名認證",
+    "message": "消息通知",
+    "securityCenter": "安全中心",
+    "languageSettings": "語言設置",
+    "customerService": "在線客服",
+    "helpCenter": "幫助中心",
+    "versionUpgrade": "版本升級",
+    "checkVersion": "檢查更新：{version}",
+    "signOut": "退出登錄",
+    "bankAccount": {
+      "account_number": "賬號",
+      "bank_card_number": "銀行卡號",
+      "card_holder_name": "持卡人姓名",
+      "card_bank": "卡屬銀行",
+      "sub_branch": "所屬支行",
+      "confirm_delete": "確定要刪除該收款賬號？",
+      "add_account": "添加賬戶",
+      "receipt_Qrcode": "收款二維碼",
+      "upload_Qrcode": "請上傳收款二維碼",
+      "qrcode_fail": "二維碼錯誤，請檢查",
+      "bank_card_number_fail": "銀行卡號有誤，請輸入正確的卡號！",
+      "headTips": "只能綁定借記卡，充值提現時銀行等姓名信息必須與您的認證姓名一致",
+      "qrcode_tips": "打開支付寶APP，在首頁點擊“收錢”，在打開的個人收錢二維碼下方點 擊“保存圖片”即可",
+      "agreement": "綁定或修改代表您已閱讀並充分理解以上述內容，由於款項造成的交易風險自行承擔",
+      "risk_tips": "風險提示：C2C屬於場外交易，法幣不經過平台，平台不會自動扣款，需要您手動自行轉賬給對方，對方才能收到款項。綁定銀行卡等收款信息只為核對信息之用。",
+      "placeholder": {
+        "input_apilay_account": "輸入支付寶賬戶名",
+        "input_wechat_account": "輸入微信賬戶名",
+        "input_true_name": "輸入真實姓名",
+        "input_card_holder_name": "輸入持卡人姓名",
+        "input_bank_card_number": "輸入銀行卡號",
+        "input_sub_branch": "輸入所屬支行"
+      },
+      "tips": {
+        "account_name_not_null": "請輸入賬戶名",
+        "true_name_not_null": "請輸入真實姓名",
+        "bank_card_number_not_null": "請輸入銀行卡號",
+        "bank_card_number_not_right": "請輸入正確的銀行卡號",
+        "sub_branch_not_null": "請輸入所屬支行"
+      }
+    },
+    "safe": {
+      "editLoginPassword": "修改登錄密碼",
+      "editPayPassword": "修改交易密碼",
+      "editMobile": "修改手機號碼",
+      "editEmail": "修改郵箱",
+      "realName": "實名認證",
+      "idcardObverse": "身份證照片 ( 個人信息面 )",
+      "idcardReverse": "身份證照片 ( 國徽圖案面 )",
+      "verified_success": "您已通過實名認證!",
+      "verified_fail": "您的實名認證資料不符合要求，請重新上傳",
+      "name": "真實姓名",
+      "nameFail": "姓名輸入錯誤",
+      "inputName": "請輸入真實姓名",
+      "inputIdNumber": "請輸入身份證號碼",
+      "typeOfCertificate": "證件類型",
+      "idNumber": "身份證號碼",
+      "idNumberFail": "請輸入正確的身份證號碼",
+      "uploadIDPhoto": "請上傳身份證照片",
+      "originalPassword": "原密碼",
+      "inputOriginalPassword": "請輸入原密碼",
+      "newPassword": "新密碼",
+      "inputNewPassword": "請輸入新密碼",
+      "confirmPassword": "確認密碼",
+      "againInputNewPassword": "請再次輸入新密碼",
+      "captcha": "驗證碼",
+      "btn": "確認修改",
+      "changeViaOldPassword": "通過舊密碼修改",
+      "currentPhoneNumber": "當前手機號",
+      "newPhoneNumber": "新手機號",
+      "inputNewPhoneNumber": "請輸入新手機號",
+      "currentEmail": "當前郵箱",
+      "newEmail": "新郵箱",
+      "inputNewEmail": "請輸入新郵箱"
+    },
+    "invite": {
+      "swiperTips": "左右滑動可切換海報",
+      "shareTitle": "分享到：",
+      "close": "取消",
+      "wechatFriends": "微信好友",
+      "friendsCircle": "朋友圈",
+      "shareBtnPic": "保存圖片",
+      "shareBtnLink": "複製鏈接",
+      "savePidTips": "圖片已保存到相冊"
+    }
+  },
+  "account": {
+    "common": {
+      "placeholder": {
+        "username": "請輸入用戶名",
+        "phone": "請輸入手機號碼",
+        "email": "請輸入郵箱地址",
+        "captcha": "請輸入驗證碼"
+      }
+    },
+    "tips": {
+      "loginname_length": "用戶名至少{length}位",
+      "loginname_not_null": "請填寫用戶名",
+      "mobile_not_null": "請輸入手機號碼",
+      "mobile_not_right": "請填寫正確的手機號",
+      "mail_not_right": "請填寫正確的郵箱地址",
+      "password_not_null": "密碼不能為空",
+      "password_length": "密碼至少{length}位",
+      "password_not_same": "兩次密碼輸入不一致",
+      "captcha_not_null": "請輸入驗證碼",
+      "captcha_length": "請正確填寫驗證碼",
+      "forget_success": "密碼修改成功, 請用新密碼登錄",
+      "register_success": "註冊成功！"
+    },
+    "login": {
+      "title": "登錄",
+      "logging": "登錄中",
+      "register": "註冊新賬號",
+      "passwordLogin": "密碼登錄",
+      "mobileLogin": "手機登錄",
+      "placeholder": {
+        "username": "請輸入用戶名/手機號",
+        "password": "請輸入登錄密碼",
+        "mobile": "請輸入手機號碼"
+      }
+    },
+    "register": {
+      "title": "註冊",
+      "agreement": "註冊代表同意協議",
+      "mobile_register": "手機號注冊",
+      "mail_register": "郵箱註冊",
+      "placeholder": {
+        "password": "請輸入登錄密碼",
+        "confim": "再次確認密碼",
+        "invite": "請輸入邀請碼"
+      }
+    },
+    "forget": {
+      "title": "找回密碼",
+      "btn": "確定",
+      "placeholder": {
+        "password": "請輸入新的登錄密碼",
+        "confim": "再次確認密碼"
+      }
+    },
+    "pay_password": {
+      "title": "請輸入交易密碼",
+      "confirm": "確認交易密碼",
+      "tips": {
+        "please_set_password": "請先設置交易密碼"
+      }
+    }
+  },
+  "otc": {
+    "index": {
+      "i_buy": "我要買",
+      "i_sell": "我要賣",
+      "count": "數量",
+      "limit": "限額",
+      "buy": "購買",
+      "sell": "出售",
+      "unit_price": "單價",
+      "by_amount": "按金額{type}",
+      "by_quantity": "按數量{type}",
+      "input_purchase_amount": "請輸入購買金額",
+      "input_purchase_quantity": "請輸入購買數量",
+      "input_sell_amount": "請輸入出售金額",
+      "input_sell_quantity": "請輸入出售數量",
+      "all": "全部{type}",
+      "buyin": "買入",
+      "sellout": "賣出",
+      "number": "交易數量",
+      "real_payment": "實付款",
+      "actual_payment": "實收款",
+      "limit_count": "限額：{min}個 - {max}個",
+      "submit_order": "下單",
+      "tips_input_amount": "請輸入金額",
+      "tips_quantity_in_range": "請輸入範圍內的數量",
+      "tips_order_success": "下單成功"
+    },
+    "release": {
+      "title": "發布掛單",
+      "currency": "幣種",
+      "select_currency": "請選擇幣種",
+      "payment_method": "支付方式",
+      "order_type": "訂單類型",
+      "place_unit_price": "請輸入單價",
+      "place_total": "請輸入總交易量",
+      "total": "總交易量",
+      "single_limit": "單筆限額",
+      "min": "最小數量",
+      "max": "最大數量",
+      "tips_payment_method": "請選擇支付方式",
+      "tips_min": "請輸入最小數量",
+      "tips_max": "請輸入最大數量",
+      "submit_success": "發布成功"
+    },
+    "merchant": {
+      "title": "掛單交易",
+      "buy": "買入掛單",
+      "sell": "賣出掛單",
+      "title_cancel": "是否取消交易？"
+    },
+    "order": {
+      "status": {
+        "fail_to_return": "退回失敗",
+        "pending_payment": "待付款",
+        "paid": "已付款",
+        "transaction_complate": "交易完成",
+        "complaining": "申訴中"
+      },
+      "index": {
+        "title": "訂單記錄",
+        "time": "時間",
+        "total_transaction": "交易總和"
+      },
+      "detail": {
+        "title": "訂單詳細",
+        "phone": "電話",
+        "switch_payment": "切換支付方式",
+        "payee": "收款人",
+        "bank_card_number": "銀行卡號",
+        "bank_account": "開戶銀行",
+        "account_opening_branch": "開戶支行",
+        "account_name": "賬戶名",
+        "collection_code": "收款碼",
+        "click_to_view": "點擊查看",
+        "payer": "付款人",
+        "orderno": "訂單號",
+        "ordertime": "下單時間",
+        "submit_appeal": "提交申訴",
+        "complaint_detail": "查看申訴詳細",
+        "successful_payment": "我已付款成功",
+        "money_received": "我已收到款項",
+        "payment_amount": "支付金額",
+        "payment_method": "支付方式",
+        "tips_payment": "請在15分鐘內付款給賣家",
+        "tips_transfer": "請使用本人(***){payment}向以下帳號自行轉賬",
+        "tips_transfer2": "在轉賬過程中請勿備註BTC、USDT、交易所等信息,防止匯款被攔截、銀行卡被凍結等問題"
+      },
+      "appeal": {
+        "title": "申訴",
+        "plac_problem": "請描述你的問題",
+        "photos": "請提供相關問題的照片或截圖",
+        "submit": "提交申述",
+        "tips_none": "請輸入申述理由和上傳圖片"
+      },
+      "appeal_detail": {
+        "title": "申訴詳細",
+        "content": "申述內容",
+        "orderinfo": "訂單信息",
+        "orderno": "訂單號",
+        "appealtime": "申訴時間",
+        "appealstatus": "申訴狀態",
+        "unprocessed": "未處理",
+        "dismissed": "已駁回",
+        "passed": "已通過"
+      }
+    }
+  }
+}

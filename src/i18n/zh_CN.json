@@ -1,0 +1,374 @@
+{
+  "common": {
+    "tips": {
+      "failed": "操作失败",
+      "success": "操作成功",
+      "added_success": "添加成功",
+      "exit_success": "退出成功",
+      "submitted": "已提交",
+      "copyLinkTips": "复制成功",
+      "sms_sendsuccess": "短信已发送",
+      "mail_sendsuccess": "邮件已发送",
+      "phoneno_error": "手机号码有误",
+      "mail_error": "邮箱格式有误",
+      "operateing": "操作中...",
+      "deleting": "删除中...",
+      "saving": "保存中...",
+      "qrcode_generating": "二维码生成中"
+    },
+    "operate": {
+      "close": "关闭",
+      "sure": "确认",
+      "cancel": "取消",
+      "get_captcha": "获取验证码",
+      "captcha_countdown": "{second} 秒后重试",
+      "forget": "忘记密码？",
+      "upload": "上传",
+      "determine": "确定",
+      "copy": "复制"
+    },
+    "status": {
+      "under_review": "审核中",
+      "passed": "已通过",
+      "cancelled": "已取消"
+    },
+    "title": {
+      "prompt": "提示",
+      "status": "状态",
+      "name": "姓名",
+      "idcrad": "身份证",
+      "wechat": "微信",
+      "alipay": "支付宝",
+      "bank_card": "银行卡",
+      "bankAccount": "收款账户",
+      "otc": "OTC交易",
+      "announcement": "公告",
+      "detailed": "详细",
+      "add_photo": "添加照片"
+    },
+    "ask": {
+      "confirmExit": "确定需要退出吗?"
+    },
+    "update": {
+      "isLatestVersion": "当前已经是最新版本",
+      "version": "发现新的版本！",
+      "downloadTips": "下载失败.请检查网络或稍后再试",
+      "downloadSuccess": "安装新版本",
+      "updateTips": "立即升级",
+      "downloadIn": "下载中...",
+      "success": "新版本下载成功，开始安装"
+    }
+  },
+  "navs": {
+    "my": "我的",
+    "assets": "资产",
+    "home": "首页"
+  },
+  "wallet": {
+    "totalAssetsConverted": "总资产折合",
+    "withdraw": "提币",
+    "recharge": "充币",
+    "internalTransfer": "内部转账",
+    "invitationAward": "邀请推广",
+    "hiddenAssets": "隐藏为0的资产",
+    "add": "添加",
+    "presentPrice": "现价",
+    "withdrawPage": {
+      "selectCoin": "选择币种",
+      "usable": "可用 {balance}{symbol}",
+      "withdrawAddress": "提币地址",
+      "withdrawNum": "提币数量",
+      "placeholderAddress": "输入或扫码录入",
+      "placeholderNum": "最小提币数量{withdraw_min}",
+      "serviceCost": "手续费：{cost}{symbol}",
+      "all": "全部",
+      "submit": "确认提现",
+      "propose": "提出：",
+      "intoAddress": "转入地址：",
+      "tipsNumNull": "提币数量不能为空",
+      "tipsNumMin": "提币数量不能小于最小限制",
+      "tipsAddressNull": "提币地址不能为空",
+      "explain": "提币说明",
+      "paused": "已暂停"
+    },
+    "transferPage": {
+      "outSymbol": "转出币种",
+      "outNum": "转出数量",
+      "outDate": "转出时间"
+    },
+    "rechargePage": {
+      "copy": "复制地址",
+      "rechargeQrCode": "充币二维码",
+      "notRecharge": "暂停充币",
+      "rechargeExplain": "充值说明",
+      "withdrawSuccess": "提币成功"
+    },
+    "logPage": {
+      "log": "财务记录",
+      "no": "业务编号",
+      "action": "业务类型",
+      "explain": "业务说明"
+    }
+  },
+  "my": {
+    "verified": "实名认证",
+    "message": "消息通知",
+    "securityCenter": "安全中心",
+    "languageSettings": "语言设置",
+    "customerService": "在线客服",
+    "helpCenter": "帮助中心",
+    "versionUpgrade": "版本升级",
+    "checkVersion": "检查更新：{version}",
+    "signOut": "退出登录",
+    "bankAccount": {
+      "account_number": "账号",
+      "bank_card_number": "银行卡号",
+      "card_holder_name": "持卡人姓名",
+      "card_bank": "卡属银行",
+      "sub_branch": "所属支行",
+      "confirm_delete": "确定要删除该收款账号？",
+      "add_account": "添加账户",
+      "receipt_Qrcode": "收款二维码",
+      "upload_Qrcode": "请上传收款二维码",
+      "qrcode_fail": "二维码错误，请检查",
+      "bank_card_number_fail": "银行卡号有误，请输入正确的卡号！",
+      "headTips": "只能绑定借记卡，充值提现时银行等姓名信息必须与您的认证姓名一致",
+      "qrcode_tips": "打开支付宝APP，在首页点击“收钱”，在打开的个人收钱二维码下方点 击“保存图片”即可",
+      "agreement": "绑定或修改代表您已阅读并充分理解以上述内容，由于款项造成的交易风险自行承担",
+      "risk_tips": "风险提示：C2C属于场外交易，法币不经过平台，平台不会自动扣款，需要您手动自行转账给对方，对方才能收到款项。绑定银行卡等收款信息只为核对信息之用。",
+      "placeholder": {
+        "input_apilay_account": "输入支付宝账户名",
+        "input_wechat_account": "输入微信账户名",
+        "input_true_name": "输入真实姓名",
+        "input_card_holder_name": "输入持卡人姓名",
+        "input_bank_card_number": "输入银行卡号",
+        "input_sub_branch": "输入所属支行"
+      },
+      "tips": {
+        "account_name_not_null": "请输入账户名",
+        "true_name_not_null": "请输入真实姓名",
+        "bank_card_number_not_null": "请输入银行卡号",
+        "bank_card_number_not_right": "请输入正确的银行卡号",
+        "sub_branch_not_null": "请输入所属支行"
+      }
+    },
+    "safe": {
+      "editLoginPassword": "修改登录密码",
+      "editPayPassword": "修改交易密码",
+      "editMobile": "修改手机号码",
+      "editEmail": "修改邮箱",
+      "realName": "实名认证",
+      "idcardObverse": "身份证照片 ( 个人信息面 )",
+      "idcardReverse": "身份证照片 ( 国徽图案面 )",
+      "verified_success": "您已通过实名认证!",
+      "verified_fail": "您的实名认证资料不符合要求，请重新上传",
+      "name": "真实姓名",
+      "nameFail": "姓名输入错误",
+      "inputName": "请输入真实姓名",
+      "inputIdNumber": "请输入身份证号码",
+      "typeOfCertificate": "证件类型",
+      "idNumber": "身份证号码",
+      "idNumberFail": "请输入正确的身份证号码",
+      "uploadIDPhoto": "请上传身份证照片",
+      "originalPassword": "原密码",
+      "inputOriginalPassword": "请输入原密码",
+      "newPassword": "新密码",
+      "inputNewPassword": "请输入新密码",
+      "confirmPassword": "确认密码",
+      "againInputNewPassword": "请再次输入新密码",
+      "captcha": "验证码",
+      "btn": "确认修改",
+      "changeViaOldPassword": "通过旧密码修改",
+      "currentPhoneNumber": "当前手机号",
+      "newPhoneNumber": "新手机号",
+      "inputNewPhoneNumber": "请输入新手机号",
+      "currentEmail": "当前邮箱",
+      "newEmail": "新邮箱",
+      "inputNewEmail": "请输入新邮箱"
+    },
+    "invite": {
+      "swiperTips": "左右滑动可切换海报",
+      "shareTitle": "分享到：",
+      "close": "取消",
+      "wechatFriends": "微信好友",
+      "friendsCircle": "朋友圈",
+      "shareBtnPic": "保存图片",
+      "shareBtnLink": "复制链接",
+      "savePidTips": "图片已保存到相册"
+    }
+  },
+  "account": {
+    "common": {
+      "placeholder": {
+        "username": "请输入用户名",
+        "phone": "请输入手机号码",
+        "email": "请输入邮箱地址",
+        "captcha": "请输入验证码"
+      }
+    },
+    "tips": {
+      "loginname_length": "用户名至少{length}位",
+      "loginname_not_null": "请填写用户名",
+      "mobile_not_null": "请输入手机号码",
+      "mobile_not_right": "请填写正确的手机号",
+      "mail_not_right": "请填写正确的邮箱地址",
+      "password_not_null": "密码不能为空",
+      "password_length": "密码至少{length}位",
+      "password_not_same": "两次密码输入不一致",
+      "captcha_not_null": "请输入验证码",
+      "captcha_length": "请正确填写验证码",
+      "forget_success": "密码修改成功, 请用新密码登录",
+      "register_success": "注册成功！"
+    },
+    "login": {
+      "title": "登录",
+      "logging": "登录中",
+      "register": "注册新账号",
+      "passwordLogin": "密码登录",
+      "mobileLogin": "手机登录",
+      "placeholder": {
+        "username": "请输入用户名/手机号",
+        "password": "请输入登录密码",
+        "mobile": "请输入手机号码"
+      }
+    },
+    "register": {
+      "title": "注册",
+      "agreement": "注册代表同意协议",
+      "mobile_register": "手机号注册",
+      "mail_register": "邮箱注册",
+      "placeholder": {
+        "password": "请输入登录密码",
+        "confim": "再次确认密码",
+        "invite": "请输入邀请码"
+      }
+    },
+    "forget": {
+      "title": "找回密码",
+      "btn": "确定",
+      "placeholder": {
+        "password": "请输入新的登录密码",
+        "confim": "再次确认密码"
+      }
+    },
+    "pay_password": {
+      "title": "请输入交易密码",
+      "confirm": "确认交易密码",
+      "tips": {
+        "please_set_password": "请先设置交易密码"
+      }
+    }
+  },
+  "otc": {
+    "index": {
+      "i_buy": "我要买",
+      "i_sell": "我要卖",
+      "count": "数量",
+      "limit": "限额",
+      "buy": "购买",
+      "sell": "出售",
+      "unit_price": "单价",
+      "by_amount": "按金额{type}",
+      "by_quantity": "按数量{type}",
+      "input_purchase_amount": "请输入购买金额",
+      "input_purchase_quantity": "请输入购买数量",
+      "input_sell_amount": "请输入出售金额",
+      "input_sell_quantity": "请输入出售数量",
+      "all": "全部{type}",
+      "buyin": "买入",
+      "sellout": "卖出",
+      "number": "交易数量",
+      "real_payment": "实付款",
+      "actual_payment": "实收款",
+      "limit_count": "限额：{min}个 - {max}个",
+      "submit_order": "下单",
+      "tips_input_amount": "请输入金额",
+      "tips_quantity_in_range": "请输入范围内的数量",
+      "tips_order_success": "下单成功"
+    },
+    "release": {
+      "title": "发布挂单",
+      "currency": "币种",
+      "select_currency": "请选择币种",
+      "payment_method": "支付方式",
+      "order_type": "订单类型",
+      "place_unit_price": "请输入单价",
+      "place_total": "请输入总交易量",
+      "total": "总交易量",
+      "single_limit": "单笔限额",
+      "min": "最小数量",
+      "max": "最大数量",
+      "tips_payment_method": "请选择支付方式",
+      "tips_min": "请输入最小数量",
+      "tips_max": "请输入最大数量",
+      "submit_success": "发布成功"
+    },
+    "merchant": {
+      "title": "挂单交易",
+      "buy": "买入挂单",
+      "sell": "卖出挂单",
+      "title_cancel": "是否取消交易？"
+    },
+    "order": {
+      "status": {
+        "fail_to_return": "退回失败",
+        "pending_payment": "待付款",
+        "paid": "已付款",
+        "transaction_complate": "交易完成",
+        "complaining": "申诉中"
+      },
+      "index": {
+        "title": "订单记录",
+        "time": "时间",
+        "total_transaction": "交易总和"
+      },
+      "detail": {
+        "title": "订单详细",
+        "phone": "电话",
+        "switch_payment": "切换支付方式",
+        "payee": "收款人",
+        "bank_card_number": "银行卡号",
+        "bank_account": "开户银行",
+        "account_opening_branch": "开户支行",
+        "account_name": "账户名",
+        "collection_code": "收款码",
+        "click_to_view": "点击查看",
+        "payer": "付款人",
+        "orderno": "订单号",
+        "ordertime": "下单时间",
+        "submit_appeal": "提交申诉",
+        "complaint_detail": "查看申诉详细",
+        "successful_payment": "我已付款成功",
+        "money_received": "我已收到款项",
+        "payment_amount": "支付金额",
+        "payment_method": "支付方式",
+        "tips_payment": "请在15分钟内付款给卖家",
+        "tips_transfer": "请使用本人(***){payment}向以下帐号自行转账",
+        "tips_transfer2": "在转账过程中请勿备注BTC、USDT、交易所等信息,防止汇款被拦截、银行卡被冻结等问题"
+      },
+      "appeal": {
+        "title": "申诉",
+        "plac_problem": "请描述你的问题",
+        "photos": "请提供相关问题的照片或截图",
+        "submit": "提交申述",
+        "tips_none": "请输入申述理由和上传图片"
+      },
+      "appeal_detail": {
+        "title": "申诉详细",
+        "content": "申述内容",
+        "orderinfo": "订单信息",
+        "orderno": "订单号",
+        "appealtime": "申诉时间",
+        "appealstatus": "申诉状态",
+        "unprocessed": "未处理",
+        "dismissed": "已驳回",
+        "passed": "已通过"
+      }
+    }
+  },
+  "handler": {
+    "need_login": "请先登录",
+    "server_error": "服务器开小差了，请联系管理员！",
+    "validation_error": "验证失败"
+  }
+}

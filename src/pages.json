@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "path": "pages/index"
+    },
+    {
+      "path": "pages/otherPage/search"
+    },
+    {
+      "path": "pages/otherPage/searchList"
+    },
+    {
+      "path": "pages/otherPage/playPage"
+    },
+    {
+      "path": "pages/otherPage/sheetDetail"
+    }
+    // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    // 所有针对项目需要添加的页面在下面补充
+    // {
+    //   "path": "pages/[项目简称]/[功能目录]/index",
+    // }
+  ],
+  "easycom": {
+    "custom": {
+      "grace(.*)": "@/graceUI/components/grace$1.vue",
+      "cloud(.*)": "@/components/cloud$1.vue"
+    }
+  },
+  "globalStyle": {
+    "navigationStyle": "custom"
+  }
+}

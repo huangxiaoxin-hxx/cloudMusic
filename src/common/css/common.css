@@ -1,0 +1,266 @@
+/* 通用(高使用率)样式 */
+
+/* 在本文件中增加样式需要记住的要求: 高使用率(不常用的完全可以在vue.style中自行定义) */
+/* 其他基础样式已在graceUI中定义 */
+
+/* 字体 */
+.font-18 {
+  font-size: 18rpx;
+}
+
+.font-20 {
+  font-size: 20rpx;
+}
+
+.font-22 {
+  font-size: 22rpx;
+}
+
+.font-24 {
+  font-size: 24rpx;
+}
+
+.font-26 {
+  font-size: 26rpx;
+}
+
+.font-28 {
+  font-size: 28rpx;
+}
+
+.font-29 {
+  font-size: 29rpx;
+}
+
+.font-30 {
+  font-size: 30rpx;
+}
+
+.font-32 {
+  font-size: 32rpx;
+}
+
+.font-34 {
+  font-size: 34rpx;
+}
+
+.font-36 {
+  font-size: 36rpx;
+}
+
+.font-40 {
+  font-size: 40rpx;
+}
+
+.font-48 {
+  font-size: 48rpx;
+}
+
+.font-60 {
+  font-size: 60rpx;
+}
+
+.font-80 {
+  font-size: 80rpx;
+}
+
+/* 间距通用 */
+.p-10 {
+  padding: 10rpx;
+}
+
+.p-20 {
+  padding: 20rpx;
+}
+
+.pt-10 {
+  padding-top: 10rpx;
+}
+
+.pb-10 {
+  padding-bottom: 10rpx;
+}
+
+.pt-20 {
+  padding-top: 20rpx;
+}
+
+.pb-20 {
+  padding-bottom: 20rpx;
+}
+
+.pl-10 {
+  padding-left: 10rpx;
+}
+
+.pr-10 {
+  padding-right: 10rpx;
+}
+
+.pl-20 {
+  padding-left: 20rpx;
+}
+
+.pr-20 {
+  padding-right: 20rpx;
+}
+
+.mt-10 {
+  margin-top: 10rpx;
+}
+
+.mt-15 {
+  margin-top: 15rpx;
+}
+
+.mt-20 {
+  margin-top: 20rpx;
+}
+
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+.mt-40 {
+  margin-top: 40rpx;
+}
+
+.mt-50 {
+  margin-top: 50rpx;
+}
+
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+
+.mb-15 {
+  margin-bottom: 15rpx;
+}
+
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+
+.mb-30 {
+  margin-bottom: 30rpx;
+}
+
+.mb-40 {
+  margin-bottom: 40rpx;
+}
+
+.mb-50 {
+  margin-bottom: 50rpx;
+}
+
+.mb-80 {
+  margin-bottom: 80rpx;
+}
+
+.ml-10 {
+  margin-left: 10rpx;
+}
+
+.ml-20 {
+  margin-left: 20rpx;
+}
+
+.ml-30 {
+  margin-left: 30rpx;
+}
+
+.ml-40 {
+  margin-left: 40rpx;
+}
+
+.mr-10 {
+  margin-right: 10rpx;
+}
+
+.mr-20 {
+  margin-right: 20rpx;
+}
+
+.mr-30 {
+  margin-right: 30rpx;
+}
+
+.mr-40 {
+  margin-right: 40rpx;
+}
+
+/* 文字通用 */
+.color-w {
+  color: #ffffff;
+}
+
+.color-b {
+  color: #232323;
+}
+
+.color-b1 {
+  color: #282828 !important;
+}
+
+.color-b2 {
+  color: #797e86;
+}
+
+.color-b3 {
+  color: #383e48;
+}
+
+.color-m {
+  color: #1774ff;
+}
+
+.color-blue {
+  color: #3daae7;
+}
+
+.color-grey {
+  color: #bbbbbb;
+}
+
+.color-gd {
+  color: #dddddd;
+}
+
+.color-g6 {
+  color: #666666;
+}
+
+.color-g9 {
+  color: #999999;
+}
+
+.color-y {
+  color: #e5a129;
+}
+
+/* 文字加粗 */
+.weight-bold {
+  font-weight: bold;
+}
+
+/* 组件通用 */
+.checkedbox {
+  transform: scale(0.7, 0.7);
+}
+
+.radiobox {
+  transform: scale(0.7, 0.7);
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* chcekbox 禁用样式 */
+.checkbox-disabled .uni-checkbox-input {
+  background: #e3e3e3;
+}
